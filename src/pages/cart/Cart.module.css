@@ -1,0 +1,101 @@
+.cartSection {
+  padding-top: 120px;
+  margin: 0 310px;
+  min-height: 100vh;
+  position: relative;
+  animation-duration: 1000;
+}
+.cartAndPrice {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+.cartContainer {
+  margin-top: 25px;
+}
+.cartSection h1 {
+  color: #2c3e50;
+}
+.cartPrice {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  height: 270px
+}
+.totalPrice {
+  font-size: 15px;
+  font-weight: 750;
+}
+.orderButton {
+  padding: 8px 15px;
+  background-color: #2c3e50;
+  color: rgb(235, 235, 235);
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.emptyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.emptyImg {
+  width: 150px;
+}
+.lottieIcon {
+  width: 300px;
+}
+.priceItem{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 13.5px;
+  font-weight: 750;
+}
+.priceSection{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #93a8bd;
+}
+.cartPrice{
+  border: 2px solid #93a8bd;
+  /* height: 250px; */
+  width: 290px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.free{
+  color: #b1b1b1;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1524px){
+  .cartSection{
+    margin: 0 200px;
+  }
+}
+@media only screen and (max-width: 1300px){
+  .cartSection{
+    margin: 0 50px;
+  }
+}
+@media only screen and (max-width: 950px){
+  .cartSection{
+    margin: 0 20px;
+  }
+}
+@media only screen and (max-width: 881px){
+  .cartAndPrice{
+    justify-content: center;
+  }
+  .cartPrice{
+    width: 90vw;
+  }
+}
